@@ -11,6 +11,7 @@
 		F18B8A812939243F002EC7B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8A802939243F002EC7B0 /* ContentView.swift */; };
 		F18B8A8329392440002EC7B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18B8A8229392440002EC7B0 /* Assets.xcassets */; };
 		F18B8A8629392440002EC7B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18B8A8529392440002EC7B0 /* Preview Assets.xcassets */; };
+		F18B8AB5293936D8002EC7B0 /* SabreDeLuz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8AB4293936D8002EC7B0 /* SabreDeLuz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F18B8A802939243F002EC7B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F18B8A8229392440002EC7B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F18B8A8529392440002EC7B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F18B8AB4293936D8002EC7B0 /* SabreDeLuz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabreDeLuz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */,
 				F18B8A802939243F002EC7B0 /* ContentView.swift */,
+				F18B8AB4293936D8002EC7B0 /* SabreDeLuz.swift */,
 				F18B8A8229392440002EC7B0 /* Assets.xcassets */,
 				F18B8A8429392440002EC7B0 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18B8AB5293936D8002EC7B0 /* SabreDeLuz.swift in Sources */,
 				F18B8A812939243F002EC7B0 /* ContentView.swift in Sources */,
 				F18B8A7F2939243F002EC7B0 /* RelaxJediApp.swift in Sources */,
 			);
