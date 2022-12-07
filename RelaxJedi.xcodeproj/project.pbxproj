@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12C5C1E293F6DF400843726 /* Sabre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C1D293F6DF400843726 /* Sabre.swift */; };
+		F12C5C27293F7DAB00843726 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C26293F7DAB00843726 /* Test.swift */; };
 		F18B8A7F2939243F002EC7B0 /* RelaxJediApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */; };
 		F18B8A812939243F002EC7B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8A802939243F002EC7B0 /* ContentView.swift */; };
 		F18B8A8329392440002EC7B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18B8A8229392440002EC7B0 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F12C5C1D293F6DF400843726 /* Sabre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sabre.swift; sourceTree = "<group>"; };
+		F12C5C26293F7DAB00843726 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		F18B8A7B2939243F002EC7B0 /* RelaxJedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelaxJedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxJediApp.swift; sourceTree = "<group>"; };
 		F18B8A802939243F002EC7B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +38,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F12C5C1A293F6DB500843726 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F12C5C1D293F6DF400843726 /* Sabre.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F12C5C1F293F6E9700843726 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F12C5C23293F713900843726 /* Enums */,
+				F12C5C22293F711800843726 /* Extensions */,
+				F18B8AB4293936D8002EC7B0 /* SabreDeLuz.swift */,
+				F18B8A802939243F002EC7B0 /* ContentView.swift */,
+				F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */,
+				F12C5C26293F7DAB00843726 /* Test.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F12C5C22293F711800843726 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F12C5C23293F713900843726 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		F18B8A722939243F002EC7B0 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +92,8 @@
 		F18B8A7D2939243F002EC7B0 /* RelaxJedi */ = {
 			isa = PBXGroup;
 			children = (
-				F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */,
-				F18B8A802939243F002EC7B0 /* ContentView.swift */,
-				F18B8AB4293936D8002EC7B0 /* SabreDeLuz.swift */,
+				F12C5C1F293F6E9700843726 /* Views */,
+				F12C5C1A293F6DB500843726 /* Model */,
 				F18B8A8229392440002EC7B0 /* Assets.xcassets */,
 				F18B8A8429392440002EC7B0 /* Preview Content */,
 			);
@@ -142,7 +180,9 @@
 			files = (
 				F18B8AB5293936D8002EC7B0 /* SabreDeLuz.swift in Sources */,
 				F18B8A812939243F002EC7B0 /* ContentView.swift in Sources */,
+				F12C5C27293F7DAB00843726 /* Test.swift in Sources */,
 				F18B8A7F2939243F002EC7B0 /* RelaxJediApp.swift in Sources */,
+				F12C5C1E293F6DF400843726 /* Sabre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
