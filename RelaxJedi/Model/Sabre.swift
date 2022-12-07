@@ -12,6 +12,9 @@ struct Sabre: Identifiable{
     var id = UUID()
     var cor: String
     var tamanho: Int
+    
+    
+    static let moved = Notification.Name("moved")
 }
 
 var sabres = [

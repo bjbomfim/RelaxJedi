@@ -8,7 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F12C5C1E293F6DF400843726 /* Sabre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C1D293F6DF400843726 /* Sabre.swift */; };
-		F12C5C27293F7DAB00843726 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C26293F7DAB00843726 /* Test.swift */; };
+		F12C5C27293F7DAB00843726 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C26293F7DAB00843726 /* ImagePicker.swift */; };
+		F12C5C2B2940EF0900843726 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = F12C5C292940EF0900843726 /* Snow.sks */; };
+		F12C5C2C2940EF0900843726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12C5C2A2940EF0900843726 /* Assets.xcassets */; };
+		F12C5C2E2940F41E00843726 /* SnowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C2D2940F41E00843726 /* SnowScene.swift */; };
+		F12C5C3029411D3200843726 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C2F29411D3200843726 /* CameraViewController.swift */; };
+		F12C5C322941236500843726 /* HandGestureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C312941236500843726 /* HandGestureProcessor.swift */; };
+		F12C5C35294123A900843726 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C34294123A900843726 /* CameraView.swift */; };
+		F12C5C372941242800843726 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C362941242800843726 /* AppError.swift */; };
 		F18B8A7F2939243F002EC7B0 /* RelaxJediApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */; };
 		F18B8A812939243F002EC7B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8A802939243F002EC7B0 /* ContentView.swift */; };
 		F18B8A8329392440002EC7B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18B8A8229392440002EC7B0 /* Assets.xcassets */; };
@@ -18,7 +25,14 @@
 
 /* Begin PBXFileReference section */
 		F12C5C1D293F6DF400843726 /* Sabre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sabre.swift; sourceTree = "<group>"; };
-		F12C5C26293F7DAB00843726 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		F12C5C26293F7DAB00843726 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F12C5C292940EF0900843726 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
+		F12C5C2A2940EF0900843726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F12C5C2D2940F41E00843726 /* SnowScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowScene.swift; sourceTree = "<group>"; };
+		F12C5C2F29411D3200843726 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F12C5C312941236500843726 /* HandGestureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandGestureProcessor.swift; sourceTree = "<group>"; };
+		F12C5C34294123A900843726 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		F12C5C362941242800843726 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		F18B8A7B2939243F002EC7B0 /* RelaxJedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelaxJedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxJediApp.swift; sourceTree = "<group>"; };
 		F18B8A802939243F002EC7B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,12 +63,16 @@
 		F12C5C1F293F6E9700843726 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F12C5C332941236B00843726 /* HandPose */,
 				F12C5C23293F713900843726 /* Enums */,
 				F12C5C22293F711800843726 /* Extensions */,
 				F18B8AB4293936D8002EC7B0 /* SabreDeLuz.swift */,
+				F12C5C292940EF0900843726 /* Snow.sks */,
+				F12C5C2A2940EF0900843726 /* Assets.xcassets */,
 				F18B8A802939243F002EC7B0 /* ContentView.swift */,
 				F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */,
-				F12C5C26293F7DAB00843726 /* Test.swift */,
+				F12C5C26293F7DAB00843726 /* ImagePicker.swift */,
+				F12C5C2D2940F41E00843726 /* SnowScene.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -71,6 +89,17 @@
 			children = (
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		F12C5C332941236B00843726 /* HandPose */ = {
+			isa = PBXGroup;
+			children = (
+				F12C5C2F29411D3200843726 /* CameraViewController.swift */,
+				F12C5C312941236500843726 /* HandGestureProcessor.swift */,
+				F12C5C34294123A900843726 /* CameraView.swift */,
+				F12C5C362941242800843726 /* AppError.swift */,
+			);
+			path = HandPose;
 			sourceTree = "<group>";
 		};
 		F18B8A722939243F002EC7B0 = {
@@ -166,7 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12C5C2B2940EF0900843726 /* Snow.sks in Resources */,
 				F18B8A8629392440002EC7B0 /* Preview Assets.xcassets in Resources */,
+				F12C5C2C2940EF0900843726 /* Assets.xcassets in Resources */,
 				F18B8A8329392440002EC7B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,9 +211,14 @@
 			files = (
 				F18B8AB5293936D8002EC7B0 /* SabreDeLuz.swift in Sources */,
 				F18B8A812939243F002EC7B0 /* ContentView.swift in Sources */,
-				F12C5C27293F7DAB00843726 /* Test.swift in Sources */,
+				F12C5C372941242800843726 /* AppError.swift in Sources */,
+				F12C5C27293F7DAB00843726 /* ImagePicker.swift in Sources */,
+				F12C5C35294123A900843726 /* CameraView.swift in Sources */,
+				F12C5C2E2940F41E00843726 /* SnowScene.swift in Sources */,
+				F12C5C3029411D3200843726 /* CameraViewController.swift in Sources */,
 				F18B8A7F2939243F002EC7B0 /* RelaxJediApp.swift in Sources */,
 				F12C5C1E293F6DF400843726 /* Sabre.swift in Sources */,
+				F12C5C322941236500843726 /* HandGestureProcessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
