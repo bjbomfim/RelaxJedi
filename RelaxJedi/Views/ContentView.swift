@@ -9,7 +9,6 @@ import SwiftUI
 import SpriteKit
 
 struct ContentView: View {
-    @State var velocidadeSparks: Double = 0.0
     var body: some View {
         NavigationStack{
             ZStack{
@@ -46,7 +45,7 @@ struct ContentView: View {
         TabView{
             ForEach(sabres){ sabre in
                 GeometryReader { proxy in
-                    NavigationLink(destination: ImagePicker()){
+                    NavigationLink(destination: RelaxMomentView(color: sabre.cor)){
                         let minX = Double(proxy.frame(in: .global).minX)
                         SabreDeLuz(sabre: sabre)
                             .padding(.vertical, 40)
@@ -81,7 +80,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-//
 struct ViewOffsetKey: PreferenceKey {
     typealias Value = CGFloat
     static var defaultValue = CGFloat.zero

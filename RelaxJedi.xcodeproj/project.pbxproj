@@ -12,10 +12,12 @@
 		F12C5C2B2940EF0900843726 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = F12C5C292940EF0900843726 /* Snow.sks */; };
 		F12C5C2C2940EF0900843726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12C5C2A2940EF0900843726 /* Assets.xcassets */; };
 		F12C5C2E2940F41E00843726 /* SnowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C2D2940F41E00843726 /* SnowScene.swift */; };
-		F12C5C3029411D3200843726 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C2F29411D3200843726 /* CameraViewController.swift */; };
-		F12C5C322941236500843726 /* HandGestureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C312941236500843726 /* HandGestureProcessor.swift */; };
-		F12C5C35294123A900843726 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C34294123A900843726 /* CameraView.swift */; };
-		F12C5C372941242800843726 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C362941242800843726 /* AppError.swift */; };
+		F12C5C3B294248DD00843726 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C3A294248DD00843726 /* CameraViewController.swift */; };
+		F12C5C3D2942493800843726 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C3C2942493800843726 /* CameraView.swift */; };
+		F12C5C4329424E9500843726 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C4229424E9500843726 /* AppError.swift */; };
+		F12C5C452942688900843726 /* RelaxMomentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C442942688900843726 /* RelaxMomentView.swift */; };
+		F12C5C47294268FE00843726 /* FingersOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C46294268FE00843726 /* FingersOverlay.swift */; };
+		F12C5C4B294270F100843726 /* Cores.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C4A294270F100843726 /* Cores.swift */; };
 		F18B8A7F2939243F002EC7B0 /* RelaxJediApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */; };
 		F18B8A812939243F002EC7B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B8A802939243F002EC7B0 /* ContentView.swift */; };
 		F18B8A8329392440002EC7B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18B8A8229392440002EC7B0 /* Assets.xcassets */; };
@@ -29,10 +31,12 @@
 		F12C5C292940EF0900843726 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
 		F12C5C2A2940EF0900843726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F12C5C2D2940F41E00843726 /* SnowScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowScene.swift; sourceTree = "<group>"; };
-		F12C5C2F29411D3200843726 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		F12C5C312941236500843726 /* HandGestureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandGestureProcessor.swift; sourceTree = "<group>"; };
-		F12C5C34294123A900843726 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		F12C5C362941242800843726 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		F12C5C3A294248DD00843726 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F12C5C3C2942493800843726 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		F12C5C4229424E9500843726 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		F12C5C442942688900843726 /* RelaxMomentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxMomentView.swift; sourceTree = "<group>"; };
+		F12C5C46294268FE00843726 /* FingersOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingersOverlay.swift; sourceTree = "<group>"; };
+		F12C5C4A294270F100843726 /* Cores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cores.swift; sourceTree = "<group>"; };
 		F18B8A7B2939243F002EC7B0 /* RelaxJedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelaxJedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxJediApp.swift; sourceTree = "<group>"; };
 		F18B8A802939243F002EC7B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,15 +67,16 @@
 		F12C5C1F293F6E9700843726 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F12C5C49294270A300843726 /* Relax */,
+				F12C5C4829426BEA00843726 /* SupportingFiles */,
 				F12C5C332941236B00843726 /* HandPose */,
 				F12C5C23293F713900843726 /* Enums */,
 				F12C5C22293F711800843726 /* Extensions */,
 				F18B8AB4293936D8002EC7B0 /* SabreDeLuz.swift */,
 				F12C5C292940EF0900843726 /* Snow.sks */,
 				F12C5C2A2940EF0900843726 /* Assets.xcassets */,
-				F18B8A802939243F002EC7B0 /* ContentView.swift */,
 				F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */,
-				F12C5C26293F7DAB00843726 /* ImagePicker.swift */,
+				F18B8A802939243F002EC7B0 /* ContentView.swift */,
 				F12C5C2D2940F41E00843726 /* SnowScene.swift */,
 			);
 			path = Views;
@@ -87,6 +92,7 @@
 		F12C5C23293F713900843726 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				F12C5C4A294270F100843726 /* Cores.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -94,12 +100,28 @@
 		F12C5C332941236B00843726 /* HandPose */ = {
 			isa = PBXGroup;
 			children = (
-				F12C5C2F29411D3200843726 /* CameraViewController.swift */,
-				F12C5C312941236500843726 /* HandGestureProcessor.swift */,
-				F12C5C34294123A900843726 /* CameraView.swift */,
-				F12C5C362941242800843726 /* AppError.swift */,
+				F12C5C26293F7DAB00843726 /* ImagePicker.swift */,
+				F12C5C3A294248DD00843726 /* CameraViewController.swift */,
+				F12C5C3C2942493800843726 /* CameraView.swift */,
 			);
 			path = HandPose;
+			sourceTree = "<group>";
+		};
+		F12C5C4829426BEA00843726 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F12C5C4229424E9500843726 /* AppError.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F12C5C49294270A300843726 /* Relax */ = {
+			isa = PBXGroup;
+			children = (
+				F12C5C442942688900843726 /* RelaxMomentView.swift */,
+				F12C5C46294268FE00843726 /* FingersOverlay.swift */,
+			);
+			path = Relax;
 			sourceTree = "<group>";
 		};
 		F18B8A722939243F002EC7B0 = {
@@ -211,14 +233,16 @@
 			files = (
 				F18B8AB5293936D8002EC7B0 /* SabreDeLuz.swift in Sources */,
 				F18B8A812939243F002EC7B0 /* ContentView.swift in Sources */,
-				F12C5C372941242800843726 /* AppError.swift in Sources */,
+				F12C5C4B294270F100843726 /* Cores.swift in Sources */,
+				F12C5C4329424E9500843726 /* AppError.swift in Sources */,
+				F12C5C452942688900843726 /* RelaxMomentView.swift in Sources */,
 				F12C5C27293F7DAB00843726 /* ImagePicker.swift in Sources */,
-				F12C5C35294123A900843726 /* CameraView.swift in Sources */,
+				F12C5C47294268FE00843726 /* FingersOverlay.swift in Sources */,
 				F12C5C2E2940F41E00843726 /* SnowScene.swift in Sources */,
-				F12C5C3029411D3200843726 /* CameraViewController.swift in Sources */,
+				F12C5C3B294248DD00843726 /* CameraViewController.swift in Sources */,
 				F18B8A7F2939243F002EC7B0 /* RelaxJediApp.swift in Sources */,
 				F12C5C1E293F6DF400843726 /* Sabre.swift in Sources */,
-				F12C5C322941236500843726 /* HandGestureProcessor.swift in Sources */,
+				F12C5C3D2942493800843726 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,11 +374,12 @@
 				DEVELOPMENT_TEAM = LYWLS2686M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application uses the camera to acess Vision technology.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,9 +387,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Bejota-Apple.RelaxJedi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -379,11 +407,12 @@
 				DEVELOPMENT_TEAM = LYWLS2686M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application uses the camera to acess Vision technology.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,9 +420,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Bejota-Apple.RelaxJedi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

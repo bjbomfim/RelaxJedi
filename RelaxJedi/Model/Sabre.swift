@@ -10,7 +10,7 @@ import SwiftUI
 
 struct Sabre: Identifiable{
     var id = UUID()
-    var cor: String
+    var cor: cores
     var tamanho: Int
     
     
@@ -18,8 +18,8 @@ struct Sabre: Identifiable{
 }
 
 var sabres = [
-    Sabre(cor: "Verde", tamanho: 500),
-    Sabre(cor: "Azul", tamanho: 500),
-    Sabre(cor: "Vermelho", tamanho: 500),
-    Sabre(cor: "Roxo", tamanho: 500)
+    Sabre(cor: .Verde, tamanho: 500),
+    Sabre(cor: .Azul, tamanho: 500),
+    Sabre(cor: .Vermelho, tamanho: 500),
+    Sabre(cor: .Roxo, tamanho: 500)
 ]
