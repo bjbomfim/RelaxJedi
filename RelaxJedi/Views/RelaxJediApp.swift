@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct RelaxJediApp: App {
+    @AppStorage("FirstA") private var fA = false
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if fA {
+                ContentView()
+            } else {
+                HelpPlay()
+            }
         }
     }
 }

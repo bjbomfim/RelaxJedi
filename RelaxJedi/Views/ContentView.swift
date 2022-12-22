@@ -9,15 +9,31 @@ import SwiftUI
 import SpriteKit
 
 struct ContentView: View {
+    
+    @State var howPlay = false
+    @State var tabSelection = 1
+    
     var body: some View {
         NavigationStack{
             ZStack{
                 SpriteView(scene: scene)
                     .ignoresSafeArea()
                 VStack(alignment: .leading){
-                    Text("Relax force")
-                        .font(.title2)
-                        .padding()
+                    HStack{
+                        Text("Relax force")
+                            .font(.title2)
+                            .padding()
+                        Spacer()
+                        Button{
+                            howPlay = true
+                        } label: {
+                            Image(systemName: "exclamationmark.circle")
+                                .padding()
+                        }
+                        .fullScreenCover(isPresented: $howPlay) {
+                            HelpPlay()
+                        }
+                    }
                     VStack(alignment: .leading){
                         Text("Select your")
                             .font(.largeTitle)
@@ -39,10 +55,8 @@ struct ContentView: View {
         return scene
     }
     
-    @State var isScrolling: Bool = false
-    
     var featured: some View{
-        TabView{
+        TabView(selection: $tabSelection){
             ForEach(sabres){ sabre in
                 GeometryReader { proxy in
                     NavigationLink(destination: RelaxMomentView(color: sabre.cor)){
@@ -55,21 +69,20 @@ struct ContentView: View {
                                 Color.clear.preference(key: ViewOffsetKey.self,
                                     value: -$0.frame(in: .named("scroll")).origin.y)
                             })
-                          
                     }
                     .frame(maxWidth: .infinity, alignment: .center)
-
                 }
+                .tag(sabre.tag)
             }
         }
         .tabViewStyle(.page(indexDisplayMode: .never))
         .frame(maxWidth: .infinity)
-        .onPreferenceChange(ViewOffsetKey.self) {_ in
+        .onPreferenceChange(ViewOffsetKey.self) { i in
             // process here update of page origin as needed
-            isScrolling.toggle()
-        
             NotificationCenter.default.post(name: Sabre.moved, object: self)
-            
+        }
+        .onChange(of: tabSelection){ _ in
+            AVAudio.AudioPlay("lightsaberSound")
         }
     }
 }

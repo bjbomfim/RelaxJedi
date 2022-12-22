@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F121E38829529584005E2E5D /* HelpPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121E38729529584005E2E5D /* HelpPlay.swift */; };
+		F121E38B2954A9E0005E2E5D /* AVAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121E38A2954A9E0005E2E5D /* AVAudio.swift */; };
 		F12C5C1E293F6DF400843726 /* Sabre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C1D293F6DF400843726 /* Sabre.swift */; };
 		F12C5C27293F7DAB00843726 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C5C26293F7DAB00843726 /* ImagePicker.swift */; };
 		F12C5C2B2940EF0900843726 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = F12C5C292940EF0900843726 /* Snow.sks */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F121E38729529584005E2E5D /* HelpPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPlay.swift; sourceTree = "<group>"; };
+		F121E38A2954A9E0005E2E5D /* AVAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudio.swift; sourceTree = "<group>"; };
 		F12C5C1D293F6DF400843726 /* Sabre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sabre.swift; sourceTree = "<group>"; };
 		F12C5C26293F7DAB00843726 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		F12C5C292940EF0900843726 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
@@ -56,10 +60,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F121E3892954A9B6005E2E5D /* Snow */ = {
+			isa = PBXGroup;
+			children = (
+				F12C5C292940EF0900843726 /* Snow.sks */,
+				F12C5C2A2940EF0900843726 /* Assets.xcassets */,
+				F12C5C2D2940F41E00843726 /* SnowScene.swift */,
+			);
+			path = Snow;
+			sourceTree = "<group>";
+		};
 		F12C5C1A293F6DB500843726 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				F12C5C1D293F6DF400843726 /* Sabre.swift */,
+				F121E38A2954A9E0005E2E5D /* AVAudio.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -67,17 +82,16 @@
 		F12C5C1F293F6E9700843726 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F121E3892954A9B6005E2E5D /* Snow */,
 				F12C5C49294270A300843726 /* Relax */,
 				F12C5C4829426BEA00843726 /* SupportingFiles */,
 				F12C5C332941236B00843726 /* HandPose */,
 				F12C5C23293F713900843726 /* Enums */,
 				F12C5C22293F711800843726 /* Extensions */,
 				F18B8AB4293936D8002EC7B0 /* SabreDeLuz.swift */,
-				F12C5C292940EF0900843726 /* Snow.sks */,
-				F12C5C2A2940EF0900843726 /* Assets.xcassets */,
 				F18B8A7E2939243F002EC7B0 /* RelaxJediApp.swift */,
 				F18B8A802939243F002EC7B0 /* ContentView.swift */,
-				F12C5C2D2940F41E00843726 /* SnowScene.swift */,
+				F121E38729529584005E2E5D /* HelpPlay.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,6 +248,7 @@
 				F18B8AB5293936D8002EC7B0 /* SabreDeLuz.swift in Sources */,
 				F18B8A812939243F002EC7B0 /* ContentView.swift in Sources */,
 				F12C5C4B294270F100843726 /* Cores.swift in Sources */,
+				F121E38829529584005E2E5D /* HelpPlay.swift in Sources */,
 				F12C5C4329424E9500843726 /* AppError.swift in Sources */,
 				F12C5C452942688900843726 /* RelaxMomentView.swift in Sources */,
 				F12C5C27293F7DAB00843726 /* ImagePicker.swift in Sources */,
@@ -243,6 +258,7 @@
 				F18B8A7F2939243F002EC7B0 /* RelaxJediApp.swift in Sources */,
 				F12C5C1E293F6DF400843726 /* Sabre.swift in Sources */,
 				F12C5C3D2942493800843726 /* CameraView.swift in Sources */,
+				F121E38B2954A9E0005E2E5D /* AVAudio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

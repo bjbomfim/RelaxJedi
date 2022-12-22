@@ -31,10 +31,10 @@ struct RelaxMomentView: View {
                 }
                 .overlay(
                     FingersOverlay(with: overlayPoints)
-                        .foregroundColor(.orange)
+                        .foregroundColor(.yellow)
                 )
                 .edgesIgnoringSafeArea(.all)
-                Color(.black).opacity(0.7).ignoresSafeArea()
+                Color(.black).opacity(0.5).ignoresSafeArea()
                 Circle()
                     .fill(Color(color.rawValue))
                     .opacity(0.95)
